@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cadastro de Cliente - Sistema ERP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastro-lista.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<header class="cabecalho">
+		<h1>Clientes</h1>
+		<nav>
+			<ul class="menu-fechado">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="admin">
+				<li><i class="fa fa-file-text-o"></i> Documentação</li>
+				<li><i class="fa fa-user-o"></i> Usuário:</li>
+			</ul>
+		</nav>
+		<div class="clear">
+			
+		</div>
+	</header> 
+
+	<nav class="menu-navegacao">
+		<h2 class="barra-menu">Menu</h2>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-cog"></i> Painel de Controle </a></li>
+			<li  class="ativo"><a href=""><i class="fa fa-group"></i> Clientes </a></li>
+			<li><a href="fornecedores.html"><i class="fa fa-bus"></i> Fornecedores </a></li>
+			<li><a href="produto.html"><i class="fa fa-folder-o"></i> Produtos </a></li>
+			<li><a href="servicos.html"><i class="fa fa-check-square"></i> Serviços </a></li>
+			<li><a href=""><i class="fa fa-copy"></i> Ordem de Serviço </a></li>
+			<li><a href=""><i class="fa fa-clone"></i> Relatórios </a></li>
+			<li><a href=""><i class="fa fa-user-o"></i> Perfil </a></li>
+			<li><a href=""><i class="fa fa-remove"></i> sair </a></li>
+		</ul>
+	</nav>
+
+	<main class="tela-principal">
+		<h2 class="titulo-secundario"><a href="cliente.html"><i class="fa fa-list fa-lg"></i> Lista de Clientes</a></h2>
+			<section class="conteudo">
+	<form action="cliente.php" method="post">
+		<div class="pessoa-fisica">
+			<h2 class="titulo-secundario">Pessoa Física</h2>
+
+			<input type="text" name="nome" placeholder="Nome Completo*">
+			<input type="text" name="cpf" placeholder="CPF*">
+			<input type="text" name="endereco" placeholder="Endereço*">
+			<input type="text" name="cep" placeholder="CEP">
+			<input type="email" name="email" placeholder="E-Mail">
+			<input type="call" name="telefone" placeholder="Telefone*">
+			<textarea placeholder="Informações Adicionais"></textarea>
+
+			<button class="btn-cadastrar"  type="submit">Cadastrar</button>
+		</div>
+
+		<div class="pessoa-juridica">
+			<h2 class="titulo-secundario">Pessoa Juridica</h2>
+
+			<input type="text" name="razao_social" placeholder="Razão Social*">
+			<input type="text" name="cnpj" placeholder="CNPJ*">
+			<input type="text" name="inscricao_estadual" placeholder="Inscrição Estatual*">
+		</div>
+	</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>© Desenvolvido por Maicon Cardoso.</p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Fornecedores - Sistema ERP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastro-lista.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<header class="cabecalho">
+		<h1>Fornecedores</h1>
+		<nav>
+			<ul class="menu-fechado">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="admin">
+				<li><i class="fa fa-file-text-o"></i> Documentação</li>
+				<li><i class="fa fa-user-o"></i> Usuário:</li>
+			</ul>
+		</nav>
+		<div class="clear">
+			
+		</div>
+	</header> 
+
+	<nav class="menu-navegacao">
+		<h2 class="barra-menu">Menu</h2>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-cog"></i> Painel de Controle </a></li>
+			<li><a href="cliente.html"><i class="fa fa-group"></i> Clientes </a></li>
+			<li class="ativo"><a href="fornecedores.html"><i class="fa fa-bus"></i> Fornecedores </a></li>
+			<li ><a href="produto.html"><i class="fa fa-folder-o"></i> Produtos </a></li>
+			<li><a href="servicos.html"><i class="fa fa-check-square"></i> Serviços </a></li>
+			<li class="mostrar-item"><a href=""><i class="fa fa-copy"></i> Ordem de Serviço </a></li>
+			<li><a href=""><i class="fa fa-clone"></i> Relatórios </a></li>
+			<li><a href=""><i class="fa fa-user-o"></i> Perfil </a></li>
+			<li><a href=""><i class="fa fa-remove"></i> sair </a></li>
+		</ul>
+	</nav>
+
+	<main class="tela-principal">
+		<h2 class="titulo-secundario"><a href="cadastro-fornecedor.html"><i class="fa fa-user-plus fa-lg"></i> Cadastrar Fornecedor</a></h2>
+
+		<h2 class="titulo-secundario">Lista de Fornecedores</h2>
+
+		<form method="post">
+			<input class="busca" type="text" placeholder="Nome" name="busca-nome">
+			<input class="busca" type="text" placeholder="CPF/CNPJ" name="busca-cpf-cnpj">
+			<button class="btn-busca">Buscar</button>
+		</form>
+
+		<div class="tabela">
+			<table>
+				<tr>
+					<th>Nome</th>
+					<th>Razão Social</th>
+					<th>Inscrição Estadual</th>
+					<th>CPF</th>
+					<th>CNPJ</th>
+					<th>Endereço</th>
+					<th>CEP</th>
+					<th>Email</th>
+					<th>Telefone</th>
+					<th>Data de Cadastro</th>
+					<th>Alterar Dados</th>
+				</tr>
+			</table>	
+		</div>
+	</main>
+
+	<footer>
+		<p>© Desenvolvido por Maicon Cardoso.</p>
+	</footer>
+
+</body>
+</html>

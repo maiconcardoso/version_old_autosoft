@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cadastro de Serviços - Sistema ERP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastro-lista.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<header class="cabecalho">
+		<h1>Serviços</h1>
+		<nav>
+			<ul class="menu-fechado">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="admin">
+				<li><i class="fa fa-file-text-o"></i> Documentação</li>
+				<li><i class="fa fa-user-o"></i> Usuário:</li>
+			</ul>
+		</nav>
+		<div class="clear">
+			
+		</div>
+	</header> 
+
+	<nav class="menu-navegacao">
+		<h2 class="barra-menu">Menu</h2>
+		<ul>
+			<li><a href="index.html"><i class="fa fa-cog"></i> Painel de Controle </a></li>
+			<li><a href="cliente.html"><i class="fa fa-group"></i> Clientes </a></li>
+			<li><a href="fornecedores.html"><i class="fa fa-bus"></i> Fornecedores </a></li>
+			<li><a href="produto.html"><i class="fa fa-folder-o"></i> Produtos </a></li>
+			<li class="ativo"><a href="servicos.html"><i class="fa fa-check-square"></i> Serviços </a></li>
+			<li><a href=""><i class="fa fa-copy"></i> Ordem de Serviço </a></li>
+			<li><a href=""><i class="fa fa-clone"></i> Relatórios </a></li>
+			<li><a href=""><i class="fa fa-user-o"></i> Perfil </a></li>
+			<li><a href=""><i class="fa fa-remove"></i> sair </a></li>
+		</ul>
+	</nav>
+
+	<main class="tela-principal">
+		<h2 class="titulo-secundario"><a href="servicos.html"><i class="fa fa-list fa-lg"></i> Lista de Serviços</a></h2>
+			<section class="conteudo">
+	<form action="" method="post">
+		<div class="produto">
+			<h2 class="titulo-secundario">Serviços</h2>
+			<input type="text" name="nome_servico" placeholder="Nome Serviço*">
+			<input type="text" name="valor_servico" placeholder="Valor Serviço">
+			<input type="text" name="qtd_servico" placeholder="Quantidade de Serviços">
+			<select name="marca" >
+				<option value="0">Marca</option>	
+				<option value="1">VOLKSWAGEN</option>	
+				<option value="2">FIAT</option>	
+				<option value="3">FORD</option>	
+				<option value="4">GM</option>	
+				<option value="5">PEGEOUT</option>	
+				<option value="6">RENAULT</option>	
+				<option value="7">HONDA</option>	
+				<option value="8">MERCEDES-BENZ</option>
+				<option value="9">MITSUBISHI</option>	
+				<option value="10">TOYOTA</option>	
+				<option value="11">VOLVO</option>	
+				<option value="12">HYUNDAI</option>
+				<option value="13">CITROËN</option>
+				<option value="14">AUDI</option>	
+			</select>
+			<input type="text" name="modelo_servico" placeholder="Modelo">
+			<textarea placeholder="Informações Adicionais"></textarea>
+
+			<button class="btn-cadastrar"  type="submit">Cadastrar</button>
+		</div>
+	</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>© Desenvolvido por Maicon Cardoso.</p>
+	</footer>
+
+</body>
+</html>

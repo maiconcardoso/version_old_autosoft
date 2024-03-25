@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.valor{
+	font-weight:bold;
+	font-size:20px;
+	padding:5px;
+	padding-left:10px;
+	margin-bottom:0;
+}
+
+.bloco{
+	text-align:center;
+	border-radius:8px;
+}
+.bloco ul{
+	padding-top: 15px;
+	padding-left: 5px;
+	text-align:left;
+}
+.bloco ul li{
+	padding-top: 10px;
+}
+.bloco-cliente{
+	width:400px;
+	height:200px;
+	background-color:#00BFFF;
+	margin-right:20px;
+	margin-left:10px;
+	margin-bottom: 30px;
+	display:inline-block;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.bloco-pedido{
+	width:400px;
+	height:200px;
+	background-color:#D2691E;
+	margin-right:20px;
+	display:inline-block;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	
+}
+.bloco-lucro{
+	width:400px;
+	height:200px;
+	background-color:#104E8B;
+	margin-right:20px;
+	margin-left:10px;
+	display:inline-block;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.bloco-compra{
+	width:400px;
+	height:200px;
+	background-color:#00CD66;
+	display:inline-block;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}

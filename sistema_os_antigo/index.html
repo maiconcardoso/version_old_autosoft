@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Sistema ERP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/painel.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	<header class="cabecalho">
+		<h1>Sistema ERP</h1>
+		<nav>
+			<ul class="menu-fechado">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="admin">
+				<li><i class="fa fa-file-text-o"></i> Documentação</li>
+				<li><i class="fa fa-user-o"></i> Usuário:</li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</header> 
+
+	<nav class="menu-navegacao">
+		<h2 class="barra-menu">Menu</h2>
+		<ul>
+			<li class="ativo"><a href="index.html"><i class="fa fa-cog"></i> Painel de Controle </a></li>
+			<li><a href="cliente.html"><i class="fa fa-group"></i> Clientes </a></li>
+			<li><a href="fornecedores.html"><i class="fa fa-bus"></i> Fornecedores </a></li>
+			<li><a href="produto.html"><i class="fa fa-folder-o"></i> Produtos </a></li>
+			<li><a href="servicos.html"><i class="fa fa-check-square"></i> Serviços </a></li>
+			<li><a href=""><i class="fa fa-copy"></i> Ordem de Serviço </a></li>
+			<li><a href=""><i class="fa fa-clone"></i> Relatórios </a></li>
+			<li><a href=""><i class="fa fa-user-o"></i> Perfil </a></li>
+			<li><a href="tela-login.html"><i class="fa fa-remove"></i> sair </a></li>
+		</ul>
+	</nav>
+
+	<main class="tela-principal">
+			<section class="blocos">
+		<div class="bloco-cliente bloco">
+			<p class="valor"></p>
+			<p>Clientes</p>
+			<ul>
+				<li>Clientes Cadastrados: </li>
+				<li>Clientes com Pedidos Abertos: </li>
+			</ul>
+		</div>
+
+		<div class="bloco-pedido bloco">
+			<p class="valor"></p>
+			<p>Pedidos Pendentes</p>
+			<ul>
+				<li>Pedidos Cadastrados: </li>
+				<li>Pedidos Abertos: </li>
+			</ul>
+		</div>
+
+		<div class="bloco-lucro bloco">
+			<p class="valor"></p>
+			<p>Total de Lucro (Mensal)</p>
+		</div>
+
+		<div class="bloco-compra bloco">
+			<p class="valor"></p>
+			<p>Compras (Mensal)</p>
+		</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>© Desenvolvido por Maicon Cardoso.</p>
+	</footer>
+
+</body>
+</html>
